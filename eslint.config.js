@@ -13,16 +13,16 @@ export default [
   pluginReact.configs.flat.recommended,
   {
     languageOptions: {
-      globals: globals.browser
+      globals: globals.browser,
     },
     rules: {
       "react/react-in-jsx-scope": "off", // React 17+ では不要
-      "react/jsx-uses-react": "off" // React 17+ では不要
+      "react/jsx-uses-react": "off", // React 17+ では不要
     },
     settings: {
       react: {
-        version: "18" // React のバージョンを指定
-      }
-    }
+        version: "18", // React のバージョンを指定
+      },
+    },
   },
 ];
